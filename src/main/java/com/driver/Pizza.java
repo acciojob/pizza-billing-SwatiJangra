@@ -40,14 +40,14 @@ public class Pizza {
 
     public void addExtraCheese(){
         if(!isExtraCheeseAdded) {
-            this.price=this.price+cheesePrice;
+            this.price=this.price+this.cheesePrice;
             isExtraCheeseAdded=true;
         }
     }
 
     public void addExtraToppings(){
         if(!isExtraToppingsAdded) {
-            this.price=this.price+toppingsPrice;
+            this.price=this.price+this.toppingsPrice;
             isExtraToppingsAdded=true;
         }
     }
